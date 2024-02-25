@@ -2,6 +2,7 @@ import React from "react";
 import HeroSection from "../components/HeroSection";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChoseUs from "@/components/WhyChoseUs";
+import TestimonialCards from "@/components/TestimonialCards";
 
 const page = () => {
   return (
@@ -9,6 +10,7 @@ const page = () => {
       <HeroSection />
       <FeaturedCourses />
       <WhyChoseUs />
+      <TestimonialCards />
     </main>
   );
 };
