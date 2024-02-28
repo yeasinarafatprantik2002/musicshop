@@ -41,7 +41,7 @@ const TestimonialCards = () => {
         Hear our Harmony: Voices of success
       </h2>
       <div className="flex justify-center w-full overflow-hidden px-4 sm:px-6 lg:px-8">
-        <div className="w-full max-w-6xl">
+        <div className="w-full max-w-7xl">
           <InfiniteMovingCards
             items={musicSchoolTestimonials}
             direction="right"
